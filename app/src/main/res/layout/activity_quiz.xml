@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_layout">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome your name!"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_marginTop="32dp"
+        android:progress="20"/>
+
+    <TextView
+        android:id="@+id/questionTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android question title:"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- option TextViews -->
+    <TextView
+        android:id="@+id/option1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 1"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:background="@drawable/answer_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/questionTitleTextView"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/option2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 2"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:background="@drawable/answer_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/option1TextView"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/option3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 3"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:background="@drawable/answer_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/option2TextView"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/option4TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer 4"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:background="@drawable/answer_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_below="@id/option3TextView"
+        android:layout_marginBottom="18dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/buttonBackground"
+        android:layout_below="@id/option4TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+</RelativeLayout>

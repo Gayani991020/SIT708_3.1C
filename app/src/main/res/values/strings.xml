@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SIT708-Task3-1C</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="next_question">Next</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_user">Welcome %1$s!</string>
+</resources>

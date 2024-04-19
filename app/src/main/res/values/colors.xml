@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonBackground">#CCCCCC</color>
+    <color name="correct_answer_color">#FF4CAF50</color> <!-- correct answer green color -->
+    <color name="incorrect_answer_color">#FFF44336</color> <!-- wrong answer red color -->
+</resources>
